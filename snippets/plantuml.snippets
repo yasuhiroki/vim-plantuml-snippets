@@ -12,34 +12,30 @@ snippet rectangle
 
 
 # allows
-snippet -->
+snippet associates
     ${1} --> ${2}
-snippet <--
+snippet is associated
     ${1} <-- ${2}
-snippet --|>
+snippet depends
+    ${1} ..> ${2}
+snippet is depended
+    ${1} <.. ${2}
+snippet extends
     ${1} --|> ${2}
-snippet <|--
+snippet is extended
     ${1} <|-- ${2}
-snippet ..|>
+snippet implements
     ${1} ..|> ${2}
-snippet <|..
+snippet is implemented
     ${1} <|.. ${2}
-snippet --*
+snippet is composed
     ${1} --* ${2}
-snippet *--
+snippet composes
     ${1} *-- ${2}
-snippet ..*
-    ${1} ..* ${2}
-snippet *..
-    ${1} *.. ${2}
-snippet --o
+snippet belongs
     ${1} --o ${2}
-snippet o--
+snippet has
     ${1} o-- ${2}
-snippet ..o
-    ${1} ..o ${2}
-snippet o..
-    ${1} o.. ${2}
 
 
 snippet nodel
